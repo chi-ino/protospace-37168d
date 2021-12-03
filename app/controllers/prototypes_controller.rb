@@ -4,6 +4,7 @@ class PrototypesController < ApplicationController
 
   def index
     @prototypes = Prototype.all
+    #追加
   end
 
   def new
